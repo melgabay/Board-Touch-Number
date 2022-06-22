@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Touch the Numbers</title>
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+
+<body>
+    <h1> Touch the Numbers </h1>
+    <section class="container">
+        <div class="display">
+            <div id="hour">00</div>
+            <div id="min">00</div>
+            <div id="sec">00</div>
+            <div id="msec">00</div>
+        </div>
+    </section>
+
+    <div>
+        <h2> Chose Your Level: </h2>
+        <div class="buttons">
+            <button onclick="YourLevel(16)">Easy(16)</button>
+            <button onclick="YourLevel(25)">Hard(25)</button>
+            <button onclick="YourLevel(36)">Extreme!(36)</button>
+            <button onclick="YourLevel(49)">Super Hard!(49)</button>
+
+        </div>
+        <table>
+            <tbody class="createTable "></tbody>
+        </table>
+    </div>
+
+
+    <script src="js/main.js">
+    </script>
+    <script src="js/util.js"></script>
+</body>
+
+</html>
